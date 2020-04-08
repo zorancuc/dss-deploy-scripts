@@ -253,10 +253,10 @@
       },
       "name": "dss-deploy",
       "repo": {
-        "name": "dss-deploy-679a078",
+        "name": "dss-deploy-4e6c3ae",
         "ref": "HEAD",
-        "rev": "679a07876d433240d0c92b65bcddd4aa00082728",
-        "url": "https://github.com/makerdao/dss-deploy"
+        "rev": "4e6c3aedad8cfd6b078ea86ef744d7afeb2a97b2",
+        "url": "https://github.com/zorancuc/dss-deploy"
       }
     },
     "dss-proxy-actions_180a5f4": {
@@ -281,10 +281,10 @@
       },
       "name": "dss",
       "repo": {
-        "name": "dss-4433006",
+        "name": "dss-9016699",
         "ref": "HEAD",
-        "rev": "44330065999621834b08de1edf3b962f6bbd74c6",
-        "url": "https://github.com/makerdao/dss"
+        "rev": "90166995d3b1d627150fbdf0fa37d57703b97dcb",
+        "url": "https://github.com/zorancuc/dss"
       }
     },
     "erc20_f322aac": {
