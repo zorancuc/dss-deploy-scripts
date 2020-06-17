@@ -1,62 +1,76 @@
 {
   "description": "Mainnet deployment",
-  "pauseDelay": "0",
-  "vat_line": "0",
-  "vow_wait": "172800",
-  "vow_dump": "250",
-  "vow_sump": "50000",
-  "vow_bump": "10000",
-  "vow_hump": "500000",
+  "pauseDelay": "172800",
+  "vat_line": "5000000000000",
+  "vow_wait": "0",
+  "vow_dump": "20",
+  "vow_sump": "1000",
+  "vow_bump": "200",
+  "vow_hump": "250",
   "jug_base": "0",
   "pot_dsr": "2",
-  "end_wait": "262800",
-  "esm_pit": "0x69076e44a9c70a67d5b79d95795aba299083c275",
+  "end_wait": "604800",
+  "esm_pit": "0xDb7A67fb3a6135c9d5167675ca8560B4bCAee912",
   "esm_min": "50000",
   "flap_beg": "3",
-  "flap_ttl": "1800",
+  "flap_ttl": "600",
   "flap_tau": "259200",
   "flop_beg": "3",
   "flop_pad": "20",
   "flop_ttl": "600",
   "flop_tau": "259200",
+  "import": {
+    "gov": null,
+    "authority": null,
+    "proxyRegistry": null,
+    "faucet": null
+  },
   "tokens": {
     "ETH": {
+      "import": {
+        "gem": "0xC02aaA39b223FE8D0A0e5C4F27eAD9083C756Cc2",
+        "pip": null
+      },
       "pipDeploy": {
         "osmDelay": "3",
         "type": "value",
-        "price": "200"
+        "price": "16291"
       },
       "ilks": {
         "A": {
-          "mat": "150",
-          "line": "0",
-          "dust": "20",
+          "mat": "125",
+          "line": "3500000000",
+          "dust": "1000",
           "duty": "4",
-          "chop": "13",
-          "lump": "50",
+          "chop": "7",
+          "lump": "10",
           "beg": "3",
-          "ttl": "600",
-          "tau": "259200"
+          "ttl": "21600",
+          "tau": "86400"
         }
       }
     },
-    "BAT": {
+    "WBTC": {
+      "import": {
+        "gem": "0x2260FAC5E5542a773Aa44fBCfeDf7C193bc2C599",
+        "pip": null
+      },
       "pipDeploy": {
         "osmDelay": "3",
         "type": "value",
-        "price": "0.2"
+        "price": "662332"
       },
       "ilks": {
         "A": {
-          "mat": "150",
-          "line": "0",
-          "dust": "20",
+          "mat": "125",
+          "line": "3500000000",
+          "dust": "1000",
           "duty": "4",
-          "chop": "13",
-          "lump": "50000",
+          "chop": "7",
+          "lump": "1",
           "beg": "3",
-          "ttl": "600",
-          "tau": "259200"
+          "ttl": "21600",
+          "tau": "86400"
         }
       }
     }
